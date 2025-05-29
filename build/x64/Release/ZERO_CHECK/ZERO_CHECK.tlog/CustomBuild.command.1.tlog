@@ -1,0 +1,10 @@
+^C:\USERS\SAEOL\DESKTOP\C PROJECTS\ADAMW\BUILD\CMAKEFILES\70FF4B2D479D7842713A0B9AAC7EA8B7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/saeol/Desktop/C Projects/AdamW" "-BC:/Users/saeol/Desktop/C Projects/AdamW/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/saeol/Desktop/C Projects/AdamW/build/AdamW.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
