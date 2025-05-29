@@ -1,3 +1,0 @@
-C:/Users/saeol/Desktop/C Projects/AdamW/build/CMakeFiles/AdamW.dir
-C:/Users/saeol/Desktop/C Projects/AdamW/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/saeol/Desktop/C Projects/AdamW/build/CMakeFiles/ZERO_CHECK.dir
